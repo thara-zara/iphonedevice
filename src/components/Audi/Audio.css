@@ -1,0 +1,152 @@
+.audio{
+    margin-top: 100px;
+    background:rgb(234, 234, 234);
+}
+.audio-bdy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.audio-bdy .aduio-top{
+    margin-top: 100px;
+    width: 50%;
+}
+.audio-bdy .aduio-top .audio-head {
+    font-size:50px;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+.audio-sub{
+    margin-top: 25px;
+}
+.aduio-btm .audio-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+.aduio-btm .audio-img .main{
+    width: 250px;
+}
+.aduio-btm .audio-img .main img{
+    width: 100%;
+}
+.aduio-btm .audio-img .one , .two , .three , .four{
+    position: absolute;
+}
+.aduio-btm .audio-img .one{
+    left:150px;
+    bottom:100px;
+}
+.aduio-btm .audio-img .one img{
+    width: 100px;
+} 
+.aduio-btm .audio-img  .two{
+    right:-100px;
+    bottom: 0;
+}
+.aduio-btm .audio-img  .two img{
+    width: 150px;
+} 
+.aduio-btm .audio-img .three{
+    right:-50px;
+    top:25px;
+}
+.aduio-btm .audio-img .three img{
+    width: 100px;
+} 
+
+.aduio-btm .audio-img .four{
+    left:-50px;
+}
+.aduio-btm .audio-img .four img{
+    width: 125px;
+} 
+
+
+@media screen and (max-width:850px){
+    .aduio-btm .audio-img .main{
+        width: 200px;
+    }
+
+    .aduio-btm .audio-img .one{
+        left:100px;
+        bottom:100px;
+    }
+    .aduio-btm .audio-img .one img{
+        width: 50px;
+    } 
+    .aduio-btm .audio-img  .two{
+        right:-100px;
+        bottom: 0;
+    }
+    .aduio-btm .audio-img  .two img{
+        width: 100px;
+    } 
+    .aduio-btm .audio-img .three{
+        right:-50px;
+        top:25px;
+    }
+    .aduio-btm .audio-img .three img{
+        width: 75px;
+    } 
+    
+    .aduio-btm .audio-img .four{
+        left:-50px;
+    }
+    .aduio-btm .audio-img .four img{
+        width: 75px;
+    }
+   
+}
+@media screen and (max-width:650px){
+    .audio-bdy .aduio-top{
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 90%;
+    }
+    .audio-sub{
+        margin-top: 25px;
+        width:100%;
+    }
+    .audio-bdy .aduio-top .audio-head {
+        font-size:50px;
+       width: 100%;
+    }
+    .aduio-btm .audio-img .main{
+        width: 150px;
+    }
+
+    .aduio-btm .audio-img .one{
+        left:100px;
+        bottom:100px;
+    }
+    .aduio-btm .audio-img .one img{
+        width: 25px;
+    } 
+    .aduio-btm .audio-img  .two{
+        right:-100px;
+        bottom: 0;
+    }
+    .aduio-btm .audio-img  .two img{
+        width: 50px;
+    } 
+    .aduio-btm .audio-img .three{
+        right:-50px;
+        top:25px;
+    }
+    .aduio-btm .audio-img .three img{
+        width: 25px;
+    } 
+    
+    .aduio-btm .audio-img .four{
+        left:-50px;
+    }
+    .aduio-btm .audio-img .four img{
+        width: 50px;
+    }
+}

@@ -1,0 +1,101 @@
+.spec{
+    margin-top: 100px;
+    background: rgb(126, 93, 226);
+}
+.spec-bdy {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.spec-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}
+.spec-left{
+    width: 45%;
+}
+.spec-head{
+    font-size:50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.spec-left button{
+    padding: 15px 20px 15px 20px;
+    outline: none;
+    border: none;
+    background: rgb(36, 36, 36);
+    color: #fff;
+    border-radius: 25px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.spec-right{
+    width: 50%;
+    position: relative;
+    line-height: 0;
+}
+.main-spec{
+    width: 500px;
+}
+.main-spec img{
+    width: 100%;
+}
+.mini1{
+    width: 100px;
+    position: absolute;
+    top: 0;
+}
+.mini2{
+    right: 0;
+   bottom: 50px;
+    width: 100px;
+    position: absolute;
+}
+.mini1 img{
+    width: 100%;
+}
+.mini2 img{
+    width: 100%;
+}
+
+@media screen and (max-width:950px){
+    .main-spec{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .main-spec{
+        width: 200px;
+    }
+    .spec-head{
+        font-size:25px;
+    }
+    .spec-left button{
+        margin-top: 10px;
+        padding: 10px 20px 10px 20px;
+    }
+    .mini1{
+        width: 50px;
+        position: absolute;
+        top: 0;
+    }
+    .mini2{
+        right: 0;
+       bottom: 50px;
+        width: 50px;
+        position: absolute;
+    }
+}
+@media screen and (max-width:450px){
+    .main-spec{
+        width: 150px;
+    }
+    .spec-head{
+        font-size:20px;
+    }
+}

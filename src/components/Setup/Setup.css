@@ -1,0 +1,126 @@
+.setup{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.setup-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+.setup-body .setup-text{
+    width: 50%;
+}
+.setup-text .head{
+    font-size:50px;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+.sub-des{
+    margin-top: 25px;
+}
+.setup-text button{
+    padding: 15px 20px 15px 20px;
+    outline: none;
+    border: none;
+    background: rgb(36, 36, 36);
+    color: #fff;
+    border-radius: 25px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.setup-right{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setup-right .img-set{
+    position: relative;
+}
+.setup-right .img-set .phone{
+    width: 350px;
+}
+.setup-right .img-set .watch{
+    width: 250px;
+    position: absolute;
+    z-index: -1;
+    left:-100px;
+    bottom: 0;
+}
+.setup-right .img-set .head-set{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+.setup-right .img-set .phone img{
+    width: 100%;
+}
+.setup-right .img-set .watch img{
+    width: 100%;
+}
+.setup-right .img-set .head-set img{
+    width: 100%;
+
+}
+
+
+
+
+@media screen and (max-width:850px){
+    .setup-right .img-set .phone{
+        width: 250px;
+    }
+    .setup-right .img-set .watch{
+        width: 200px;
+        position: absolute;
+        z-index: -1;
+        left:-100px;
+        bottom: 0;
+    }
+    .setup-right .img-set .head-set{
+        width: 100px;
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:650px){
+    .setup-body{
+       flex-direction: column-reverse;
+    }
+    .setup-body .setup-text{
+        width: 100%;
+    }
+    .setup-text button{
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:450px){
+    .setup{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .setup-right .img-set .phone{
+        width: 200px;
+    }
+    .setup-right .img-set .watch{
+        width: 100px;
+        position: absolute;
+        z-index: -1;
+        left:-50px;
+        bottom: 0;
+    }
+    .setup-right .img-set .head-set{
+        width:50px;
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+    }
+}

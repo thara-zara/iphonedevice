@@ -1,0 +1,38 @@
+.foot{
+    margin-top: 50px;
+    width: 100%;
+   margin-bottom: 50px;
+}
+.footer{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.social > div{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+@media screen and (max-width:750px){
+    .foot{
+        margin-bottom: 0;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:450px){
+    .footer{
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
